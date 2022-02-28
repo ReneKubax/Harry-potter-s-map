@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Harry potter map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <h3>Welcome to Harry potter world!!!</h3>
+
+    <div class="container">
+
+      <div class="hp-character griffindor" role="img" aria-label="Cartoon of a Griffindor student (Harry Potter), a boy with rounded glasses and a scar in the forehead, wearing a red and gold scarf"></div>
+    
+      <div class="hp-character slytherin" role="img" aria-label="Cartoon of a Slytherin student (Draco Malfoy), an angry-looking boy with silvery hair, wearing a green and silver scarf"></div>
+    
+      <div class="hp-character ravenclaw" role="img" aria-label="Cartoon of a Ravenclaw student, a girl with long hair and long eye lashes, wearing a blue and bronze scarf"></div>
+    
+      <div class="hp-character hufflepuff" role="img" aria-label="Cartoon of a Hufflepuff student, a Black boy with dark hair and eyebrows, wearing a black and yellow scarf"></div>
+    
+    </div>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1jyJTG_9or9Q1UyF5pnuOSLpjqZQu3Jo&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
